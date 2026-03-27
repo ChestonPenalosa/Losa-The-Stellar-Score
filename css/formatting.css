@@ -1,0 +1,115 @@
+/* css for the IN*/
+
+body {
+    background-image: url("../images/galaxy2.jpg");
+    background-color: #26193c;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    /*background-size: cover;*/
+    font-family: Georgia, serif;
+}
+
+header {
+   color: #ededed; 
+}
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    background-color: #2b1d38;
+    list-style-type: none;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    border: solid #432d57;
+    border-width: 3px;
+    border-radius: 15px;
+    margin-right: 10px;
+    font-weight: normal; 
+    text-transform: none;
+}
+
+nav a:hover {
+    color: rgb(196, 196, 196);
+    background-color: #6d4791;
+}
+
+nav a:active {
+    color: rgb(129, 129, 129);
+    background-color: #523270;
+    border-color: #332144;
+}
+
+nav a:visited {
+    color: rgb(196, 196, 196);
+}
+
+h1 {
+color: #ededed;
+margin-bottom: 20px;
+font-size: 30px;
+text-align: center;
+text-decoration: bold;
+}
+
+h2 {
+color: #ededed;
+margin-bottom: 30px;
+font-size: 20px;
+text-align: center;
+text-decoration: bold;
+}
+
+h3 {
+color: #ededed;
+margin-bottom: 10px;
+font-size: 16px;
+text-align: left;
+text-decoration: bold;
+}
+
+p {
+color: #e0e0e0;
+margin-bottom: 25px;
+font-size: 16px;
+/*font-weight: 300;*/
+line-height: 30px;
+text-indent: 30px;
+}
+
+.container {
+    background-color: #3c096c;
+    max-width: 1500px;
+    margin: 20px auto;
+    border: thick solid #5a189a;
+    border-radius: 25px;
+    padding: 25px;
+}
+
+a {
+    color: #7dc5ff;
+    font-weight: bold; 
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: #b6deff;
+}
+
+a:active {
+    color: #5e9ed3;
+}
+
+a:visited {
+    color: #8fb67d;
+}
